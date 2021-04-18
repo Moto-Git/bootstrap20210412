@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -43,11 +45,242 @@
       </h3>
     </div>
   </div>
+
+  <div class="block-lebel">
+    <h1>H1見出し</h1>
+    <h2>H2見出し</h2>
+    <h3>H3見出し</h3>
+    <h4>H4見出し</h4>
+    <h5>H5見出し</h5>
+    <h6>H6見出し</h6>
+    <p>Paragraph</p>
+    <ul>
+      <li><a href="#">List & Link(a) 001</a></li>
+      <li><a href="#">List & Link(a) 002</a></li>
+      <li><a href="#">List & Link(a) 003</a></li>
+      <li><a href="#">List & Link(a) 004</a></li>
+    </ul>
+    <ol>
+      <li><a href="#">List & Link(a) 005</a></li>
+      <li><a href="#">List & Link(a) 006</a></li>
+      <li><a href="#">List & Link(a) 007</a></li>
+      <li><a href="#">List & Link(a) 008</a></li>
+    </ol>
+
+    <table>
+      Table
+      <address>Address</address>
+    </table>
+  </div>
+  <div class="inline-lebel">
+    <h3>
+      <a href="#">Link</a>
+    </h3>
+    <p>
+      <em>強調</em>
+    </p>
+    <p>
+      <strong>重要な語句</strong>
+    </p>
+    <p>
+      Picture
+      <img src="../img/" alt="img">
+    </p>
+    <p>
+      <span>任意の範囲</span>
+    </p>
+
+    <!-- 要素 -->
+    <header>Header</header>
+    <footer>Footer</footer>
+    <main>Main</main>
+    <section>Section</section>
+    <article>Article</article>
+    <aside>Aside</aside>
+    <nav>Navigation</nav>
+  </div>
+
+
+
+  <!-- Header Base Setting -->
+  <header class="headerbasesetting">
+    <div class="header-logo">
+      <h1>Title</h1>
+      <p>リード文</p>
+    </div>
+    <div class="hero">
+      <div class="background-img">
+        <img src="../img/Hero.jpg" alt="HeroImg or BackgroundImg">
+      </div>
+      <div class="herotxt">
+        <h2>HeroImgMessage</h2>
+        <p>Complement</p>
+        <p>両方ともtext-align: center;</p>
+        <p>position: rerative;</p>
+        <p>position: absolute;</p>
+        <p>ポジションで重ねる</p>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <ul class="flex">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SNS Section -->
+  <div class="snssectionsetting">
+    <div class="twitter">
+      <a href="">
+        <img src="../img/twitterlogo.svg" alt="twitter">
+      </a>
+    </div>
+    <div class="instagram">
+      <a href="">
+        <img src="../img/instagramlogo.svg" alt="twitter">
+      </a>
+    </div>
+    <div class="facebook">
+      <a href="">
+        <img src="../img/facebooklogo.svg" alt="twitter">
+      </a>
+    </div>
+    <div class="line">
+      <a href="">
+        <img src="../img/twitterlogo.svg" alt="twitter">
+      </a>
+    </div>
+    <div class="">
+      <a href="">
+        <img src="../img/twitterlogo.svg" alt="twitter">
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Footer Base Setting -->
+  <footer class="footerbasesetting">
+    <div class="footer-logo">
+      <p>
+        ©Copyright
+      </p>
+    </div>
+    <nav class="footer-nav">
+      <ul class="flex">
+        <li><a href="#">nav001</a></li>
+        <li><a href="#">nav002
+            <!-- <ul class="pulldownmenu">
+              <li><a href="#">nav002-1</a></li>
+              <li><a href="#">nav002-2</a></li>
+              <li><a href="#">nav002-3</a></li>
+              <li><a href="#">nav002-4</a></li>
+              <li><a href="#">nav002-5</a></li>
+              <li><a href="#">nav002-6</a></li>
+              <li><a href="#">nav002-7</a></li>
+            </ul> -->
+          </a></li>
+        <li><a href="#">nav003</a></li>
+        <li><a href="#">nav004</a></li>
+        <li><a href="#">nav005</a></li>
+        <li><a href="#">nav006</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+
+
+  <div class="DOUBLE">
+    <div class="underimg">
+      <img src="../img/Hero.jpg" alt="Asuka Saito">
+    </div>
+    <div class="toptext">
+      <h2>
+        重ねる方法をわかりやすくするためのSection
+      </h2>
+      <p>
+        説明は少しずつ書いていきます。
+
+      </p>
+    </div>
+  </div>
+
+
+  <div class="descriptionlist">
+    <dl>
+      <dt>項目タイトル</dt>
+      <dd>項目内容テキスト</dd>
+    </dl>
+    <hr>
+    <dl>
+      <dt>
+        ItemTitle :
+      </dt>
+      <dd>
+        ItemContentText
+      </dd>
+      <dt>
+        ItemTitle :
+      </dt>
+      <dd>
+        ItemContentText
+      </dd>
+      <dt>
+        ItemTitle :
+      </dt>
+      <dd>
+        ItemContentText
+      </dd>
+      <dt>
+        ItemTitle :
+      </dt>
+      <dd>
+        ItemContentText
+      </dd>
+      <dt>
+        ItemTitle :
+      </dt>
+      <dd>
+        ItemContentText
+      </dd>
+      <dt>
+        ItemTitle :
+      </dt>
+      <dd>
+        ItemContentText
+      </dd>
+    </dl>
+  </div>
+
+
+  <!-- Contents model -->
+  <div class="wrap">
+    <h1>
+      ページタイトル
+    </h1>
+    <p>
+      リード文
+    </p>
+    <div class="contents">
+      <h2>
+        見出し
+      </h2>
+      <p>
+        テキストテキストテキストテキストテキストテキストテキスト
+      </p>
+    </div>
+  </div>
+
   <!-- <div class="row p-5">
     <div class="col-12">
       Krowon
     </div>
   </div> -->
+
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">

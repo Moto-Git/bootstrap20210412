@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.footerbasesetting {
+  // 上下の中央に配置する
+  align-items: center;
+  // 左右の中央に配置する
+  text-align: center;
+  display: flex;
+
+  & .footer-logo {
+    margin: 0 0 0 50px ;
+  }
+
+  & .footer-nav {
+    & .flex {
+      list-style: none;
+      display: flex;
+
+      & li a {
+        margin-right: 30px;
+        text-decoration: none;
+      }
+    }
+  }
+}
